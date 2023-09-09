@@ -25,7 +25,7 @@ body {
     color: var(--color-body);
 }
 
-/* typography */
+/* Typography */
 
 h1, h2, h3 {
     color: var(--color-heading);
@@ -67,7 +67,7 @@ p {
 
 }
 
-/* links */
+/* Links */
 
 a {
     text-decoration: none;
@@ -96,7 +96,7 @@ a {
     }
 }
 
-/* badges */
+/* Badges */
 
 .badge {
     border-radius: 20px;
@@ -131,7 +131,7 @@ a {
     }
 }
 
-/* lists */
+/* Lists */
 
 .list {
     list-style: none;
@@ -160,7 +160,7 @@ a {
     }
 }
 
-/* icons */
+/* Icons */
 
 .icon {
     width: 40px;
@@ -182,7 +182,7 @@ a {
     align-items: center;
 }
 
-/* buttons */
+/* Buttons */
 
 .btn {
     border-radius: 40px;
@@ -246,7 +246,7 @@ a {
     }
  }
 
- /* inputs */
+ /* Inputs */
 
  .input {
     padding: 1.5rem 3rem;
@@ -282,12 +282,11 @@ a {
     }
  }
 
- /* cards */
+ /* Cards */
 
  .full-card {
     width: 30%;
     padding: 4rem;
-    display: inline-block;
  }
  
  .card {
@@ -315,7 +314,7 @@ a {
     background: #02cdf1;
  }
 
-/* plans */
+/* Plans */
 
  .plan__name {
     color: #fff;
@@ -372,5 +371,23 @@ a {
     .plan__description {
         font-size: 1.7rem;
     }
+ }
+
+ /* Media */
+
+ .media {
+    display: flex;
+ }
+
+ .media__title {
+    margin: 0;
+ }
+
+ .media__body {
+    margin: 0 2rem;
+ }
+
+ .media__image {
+    margin-top: 1rem;
  }
 
