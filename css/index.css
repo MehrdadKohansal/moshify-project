@@ -392,7 +392,7 @@ a {
     margin-top: 1rem;
  }
 
-/* Quote */
+ /* Quote */
 
   .quote {
     font-size: 3rem;
@@ -409,7 +409,7 @@ a {
     content: close-quote;
   }
 
-.quote__author {
+  .quote__author {
     font-size: 3rem;
     font-weight: 500;
     font-style: normal;
@@ -439,5 +439,18 @@ a {
 
     .quote__organization {
         font-size: 1.6rem;
+    }
+}
+
+/* Girds */
+
+.grid {
+    display: grid;
+}
+
+
+@media screen and (min-width: 768px) {
+    .grid--1x2 {
+        grid-template-columns: repeat(2, 1fr);
     }
 }
