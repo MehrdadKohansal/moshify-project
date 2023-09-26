@@ -9,6 +9,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Open+Sans:wght@400;700&family=Poppins:wght@300;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 <body>  
     <header>
@@ -26,12 +27,12 @@
     </header>
     <section class="block block--dark block--skewed-left hero">
         <div class="container grid grid--1x2">
-          <header class="block__header hero__content">
+          <header class="block__header hero__content data" data-aos="fade-right">
               <h1 class="block__heading">Cloud Hosting for Pros</h1>
               <p class="hero__tagline">Deploy your website in less than 60 seconds</p>
               <a href="#" class="btn btn--accent btn--stretched">Get Started</a>
           </header>
-          <picture>
+          <picture data-aos="fade-up">
             <source 
             type="images/webp"
             srcset="images/banner.webp 1x, images/banner2x.webp 2x">
@@ -69,7 +70,7 @@
         </ul>
     </section>
     <section class="block container block-plans">
-        <div class="grid grid--1x3">
+        <div class="grid grid--1x3" data-aos="fade-up">
             <div>
                 <div class="plan">
                     <div class="card card--secondary">
@@ -148,7 +149,7 @@
             </p>
         </header>
         <article class="grid grid--1x2 feature" >
-            <div>
+            <div data-aos="fade-right">
                 <span class="icon-container">
                     <svg class="icon icon--primary" height="512" viewBox="0 0 512 512" width="512" xmlns="http://www.w3.org/2000/svg"><g id="Out_line" data-name="Out line"><path d="m184 304h-112a8.00008 8.00008 0 0 0 -8 8v96a8.00008 8.00008 0 0 0 8 8h112a8.00008 8.00008 0 0 0 8-8v-96a8.00008 8.00008 0 0 0 -8-8zm-8 96h-96v-80h96z"/><path d="m96 336h32v16h-32z"/><path d="m128 368h32v16h-32z"/><path d="m380 64h-244v-40a7.99985 7.99985 0 0 0 -12.87793-6.34082l-104 80a8 8 0 0 0 0 12.68164l104 80a7.99985 7.99985 0 0 0 12.87793-6.34082v-40h216a64.07239 64.07239 0 0 1 64 64v144a63.89737 63.89737 0 0 1 -48 61.99341v-181.99341a8.00008 8.00008 0 0 0 -8-8h-336a8.00008 8.00008 0 0 0 -8 8v256a8.00008 8.00008 0 0 0 8 8h356a116.13134 116.13134 0 0 0 116-116v-200a116.13134 116.13134 0 0 0 -116-116zm-28 176v192h-112v-192zm-208 0v32h-32v-32zm-112 0h64v40a8.00008 8.00008 0 0 0 8 8h48a8.00008 8.00008 0 0 0 8-8v-40h64v192h-192zm448 140a100.113 100.113 0 0 1 -100 100h-348v-32h328a8.00008 8.00008 0 0 0 8-8v-9.605a79.86446 79.86446 0 0 0 64-78.395v-144a80.09041 80.09041 0 0 0 -80-80h-224a8.00008 8.00008 0 0 0 -8 8v31.75293l-82.87891-63.75293 82.87891-63.75293v31.75293a8.00008 8.00008 0 0 0 8 8h252a100.113 100.113 0 0 1 100 100z"/><path d="m320 400h16v16h-16z"/><path d="m288 400h16v16h-16z"/><path d="m256 400h16v16h-16z"/></g></svg>
                 </span>
@@ -160,7 +161,7 @@
                 </p>
                 <a href="#" class="link-arrow">Learn More</a>
             </div>
-            <picture>
+            <picture data-aos="zoom-in-left">
                 <source
                 type="images/webp"
                 srcset="images/easy.webp 1x, images/easy@x2.webp 2x">
@@ -180,7 +181,7 @@
                 srcset="images/fast.jpg 1x, images/fast@x2.jpg 2x">
                 <img class="feature__image" src="images/fast@x2.webp" alt="fast logo">
             </picture>
-            <div>
+            <div data-aos="fade-up">
                 <span class="icon-container">
                     <svg class="icon icon--primary" height="512" viewBox="0 0 64 64" width="512" xmlns="http://www.w3.org/2000/svg"><g id="Computer-Engineer-Coding-Programing-Configulation"><path d="m13.293 14.293-3 3a1 1 0 0 0 0 1.414l3 3 1.414-1.414-2.293-2.293 2.293-2.293z"/><path d="m14.228 17h8.544v2h-8.544z" transform="matrix(.351 -.936 .936 .351 -4.85 29.002)"/><path d="m23.707 21.707 3-3a1 1 0 0 0 0-1.414l-3-3-1.414 1.414 2.293 2.293-2.293 2.293z"/><path d="m10 26h4v2h-4z"/><path d="m16 26h10v2h-10z"/><path d="m12 30h4v2h-4z"/><path d="m18 30h10v2h-10z"/><path d="m30 30h2v2h-2z"/><path d="m12 34h4v2h-4z"/><path d="m18 34h10v2h-10z"/><path d="m30 34h2v2h-2z"/><path d="m61.142 13.01-2.682-.383a10.86 10.86 0 0 0 -.679-1.639l1.625-2.166a1 1 0 0 0 -.093-1.307l-2.828-2.828a1 1 0 0 0 -1.306-.093l-2.167 1.624a10.9 10.9 0 0 0 -1.639-.678l-.383-2.682a1 1 0 0 0 -.99-.858h-4a1 1 0 0 0 -.99.858l-.383 2.682a10.855 10.855 0 0 0 -1.639.678l-2.167-1.624a1 1 0 0 0 -1.306.093l-2.828 2.828a1 1 0 0 0 -.093 1.307l1.625 2.166a10.86 10.86 0 0 0 -.679 1.639l-2.682.383a1 1 0 0 0 -.858.99v4a1 1 0 0 0 .858.99l2.682.383a10.86 10.86 0 0 0 .679 1.639l-1.625 2.166a1 1 0 0 0 .093 1.307l2.828 2.828a1 1 0 0 0 1.306.093l2.167-1.624a10.855 10.855 0 0 0 1.639.678l.383 2.682a1 1 0 0 0 .99.858h4a1 1 0 0 0 .99-.858l.383-2.682a10.9 10.9 0 0 0 1.639-.678l2.167 1.624a1 1 0 0 0 1.306-.093l2.828-2.828a1 1 0 0 0 .093-1.307l-1.625-2.166a10.86 10.86 0 0 0 .679-1.639l2.682-.383a1 1 0 0 0 .858-.99v-4a1 1 0 0 0 -.858-.99zm-1.142 4.123-2.463.352a1 1 0 0 0 -.827.742 8.923 8.923 0 0 1 -.977 2.357 1 1 0 0 0 .061 1.111l1.492 1.99-1.6 1.6-1.991-1.492a1 1 0 0 0 -1.11-.06 8.859 8.859 0 0 1 -2.356.975 1 1 0 0 0 -.744.828l-.352 2.464h-2.266l-.351-2.463a1 1 0 0 0 -.744-.828 8.859 8.859 0 0 1 -2.356-.975 1 1 0 0 0 -1.11.06l-1.991 1.492-1.6-1.6 1.492-1.99a1 1 0 0 0 .061-1.111 8.923 8.923 0 0 1 -.977-2.357 1 1 0 0 0 -.827-.742l-2.464-.353v-2.266l2.463-.352a1 1 0 0 0 .827-.742 8.923 8.923 0 0 1 .977-2.357 1 1 0 0 0 -.061-1.111l-1.492-1.99 1.6-1.6 1.991 1.492a1 1 0 0 0 1.11.06 8.859 8.859 0 0 1 2.356-.975 1 1 0 0 0 .744-.828l.352-2.464h2.266l.351 2.463a1 1 0 0 0 .744.828 8.859 8.859 0 0 1 2.356.975 1 1 0 0 0 1.11-.06l1.991-1.492 1.6 1.6-1.492 1.99a1 1 0 0 0 -.061 1.111 8.923 8.923 0 0 1 .977 2.357 1 1 0 0 0 .827.742l2.464.353z"/><path d="m48 10a6 6 0 1 0 6 6 6.006 6.006 0 0 0 -6-6zm0 10a4 4 0 1 1 4-4 4 4 0 0 1 -4 4z"/><path d="m52 40h-48v-25a3 3 0 0 1 3-3h28v-2h-28a5.006 5.006 0 0 0 -5 5v30a5.006 5.006 0 0 0 5 5h12.867l-.75 6h-2.117a2 2 0 0 0 -2 2v2a2 2 0 0 0 2 2h22a2 2 0 0 0 2-2v-2a2 2 0 0 0 -2-2h-2.117l-.75-6h12.867a5.006 5.006 0 0 0 5-5v-16h-2zm-13 20h-22v-2h22zm-4.133-4h-13.734l.75-6h12.234zm14.133-8h-42a3 3 0 0 1 -3-3v-3h48v3a3 3 0 0 1 -3 3z"/><path d="m46 44h2v2h-2z"/></g></svg>
                 </span>
@@ -194,7 +195,7 @@
             </div>
         </article>
         <article class="grid grid--1x2 feature" >
-            <div>
+            <div data-aos="fade-up">
                 <span class="icon-container">
                     <svg class="icon icon--primary" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
      viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
@@ -305,7 +306,7 @@
                 <img class="feature__image" src="images/wordpress@x2.webp" alt="wordpress logo">
             </picture>
         </article>
-        <article class="grid grid--1x2 feature" >
+        <article class="grid grid--1x2 feature" data-aos="zoom-in">
             <picture>
                 <source
                 type="images/webp"
@@ -403,7 +404,7 @@
                 User-friendly Control Panel
             </h2>
             <div class="container grid grid--1x2">
-                <picture class="block-showcase__image">
+                <picture class="block-showcase__image" data-aos="fade-right">
                     <source 
                     type="images/webp"
                     srcset="images/ipad.webp 1x, images/ipad@x2.webp 2x">
@@ -412,7 +413,7 @@
                     srcset="images/ipad.png 1x, images/ipad@2x.png 2x">
                     <img src="images/ipad.png" alt="">
                 </picture>
-                <ul class="list">
+                <ul class="list" data-aos="fade-up">
                     <li>
                         <div class="media">
                             <div class="media__image">
@@ -558,7 +559,7 @@
                 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam, dicta?
             </p>
         </header>
-        <div class="container">
+        <div class="container" data-aos="zoom-in">
             <body> 
                 <div class="card testimonial">
                     <div class="grid grid--1x2">
@@ -710,8 +711,10 @@
           </section>
         </div>
       </footer>
-    
-    
      <script src="js/main.js"></script>
-</body> 
+     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+     <script>
+       AOS.init();
+     </script>
+</body>  
 </html>         
